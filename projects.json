@@ -1,0 +1,38 @@
+[
+    {
+        "link": "http://weebasse.gay/blogpoo",
+        "image": "res/img/projects/p4.jpg",
+        "title": "Doctrine Blog (PHP)",
+        "text": "Mini-Blog based on the Doctrine library. (Feb 2021)"
+    },
+    {
+        "link": "http://weebasse.gay/quoridor",
+        "image": "res/img/projects/p5.jpg",
+        "title": "Quoridor",
+        "text": "Mini board game made in Javascript/jQuery. (Dec 2020)"
+    },
+    {
+        "link": "https://youtu.be/k0DohaDvEBE",
+        "image": "res/img/projects/p9.jpg",
+        "title": "3D Render - Shamiko x Jack Frost",
+        "text": "Made with 3DS Max and Photoshop (2020)"
+    },
+    {
+        "link": "http://stellarlvii.xyz/react/todolist",
+        "image": "res/img/projects/p10.jpg",
+        "title": "ReactJS TodoList",
+        "text": "Todo-list made with ReactJS (2021)"
+    },
+    {
+        "link": "https://youtu.be/FcZmLybX1Ls",
+        "image": "res/img/projects/p11.jpg",
+        "title": "React Native Weather App",
+        "text": "Weather App made with React Native (2021)"
+    },
+    {
+        "link": "https://github.com/LifestreamVII",
+        "image": "res/img/projects/git.jpg",
+        "title": "GitHub Account",
+        "text": "GitHub Profile for source codes and other projects"
+    }
+]
