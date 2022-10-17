@@ -1,0 +1,43 @@
+.tabs{
+    width: 130px;
+    height: 230px;
+    margin: 0 5px;
+    border-radius: 10px;
+    background-color: #000000a9;
+    border: solid 1px #ffffff79;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    transition: bottom ease-in-out 0.3s;
+}
+
+.tabs:hover h3,
+.tabs.active h3{
+    text-shadow: 0px 0px 9px #ffffffd4;
+}
+
+.tabs h3{
+    transition: text-shadow ease-in-out 0.3s;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.tabs-cont{
+    position: absolute;
+    bottom: -140px;
+}
+
+.tabs:hover,
+.tabs.active{
+    cursor: pointer;
+    bottom: 25px;
+}
+
+@media only screen and (max-width: 470px){
+    .tabs{
+        width: 96px;
+    }
+    .tabs h3{
+        font-size: 15px;
+    }
+    }
