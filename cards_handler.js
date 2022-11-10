@@ -4,7 +4,7 @@ function chk(target, times, delay, timeout) {
   return Promise.race([
       new Promise((res, rej) => {
           (function rec(i) {
-              fetch(target, {mode: 'no-cors'}).then((r) => {
+              fetch(target, {mode: 'cors', method: 'HEAD'}).then((r) => {
                   res(r);
               }).catch( err => {
                   if (failedTimeout) return;
@@ -37,7 +37,7 @@ function updServer(status){
 
 document.addEventListener("DOMContentLoaded", function() {
   
-    chk('https://na-no.pro/', 1, 0, 6000).then(r=>{updServer(1)}).catch(e=>{updServer(0);});
+    chk('https://na-no.pro/', 1, 0, 6000).then(r=>{r.status == 200 ? updServer(1) : updServer(0);}).catch(e=>{updServer(0);});
 
     const card = document.querySelectorAll(".card");
     
