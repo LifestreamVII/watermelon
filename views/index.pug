@@ -1,0 +1,52 @@
+extends ../layouts/default.pug
+
+block content
+  include ../includes/component.iframe.pug
+
+block embedcontent
+  span Links to my pages on external platforms
+  div.cards-container#portfolios
+    div.card
+      div.card-img
+        img(src="behance.jpg", alt="")
+      div.card-content
+        h2 Behance
+        div.tags
+          div.tagbox.purple Portfolio
+        div.description
+          p My Behance page. You will mainly find my UX/UI, Graphic and Motion Design works, as well as 3D Animation projects.
+        div.align-center
+          a.red_link(href="https://www.behance.net/loislsp", target="_blank") Check it out
+    div.card
+      div.card-img
+        img(src="git.jpg", alt="")
+      div.card-content
+        h2 GitHub
+        div.tags
+          div.tagbox.black Repository
+        div.description
+          p My GitHub page. The place where I put all my source code for various projects.
+        div.align-center
+          a.red_link(href="https://github.com/LifestreamVII", target="_blank") Check it out
+    div.card
+      div.card-img
+        img(src="gurushots.jpg", alt="")
+      div.card-content
+        h2 GuruShots
+        div.tags
+          div.tagbox.purple Portfolio
+        div.description
+          p All my photos and edits are uploaded on my GuruShots page.
+        div.align-center
+          a.red_link(href="https://gurushots.com/SmileLVII/photos", target="_blank") Check it out
+    div.card
+      div.card-img
+        img(src="portfoliobox.jpg", alt="")
+      div.card-content
+        h2 PortfolioBox
+        div.tags
+          div.tagbox.purple Portfolio
+        div.description
+          p My PortfolioBox page. You will mainly find archived Graphic Design works there.
+        div.align-center
+          a.red_link(href="https://loisl.portfoliobox.net/", target="_blank") Check it out

@@ -1,0 +1,41 @@
+extends ../layouts/default.pug
+
+block content
+  block embedcontent
+    span My contact info
+    div.cards-container#contact
+      div.card
+        div.card-img
+          img(src="linkedin.jpg", alt="")
+        div.card-content
+          h2 LinkedIn
+          div.tags
+            div.tagbox.blue Pro
+          div.description
+            p LinkedIn Profile. You can visit my profile and reach me using the built-in messaging feature.
+          div.align-center
+            a.red_link(href="https://www.linkedin.com/in/lo%C3%AFs-lespes-812a50194/", target="_blank") Contact me
+
+      div.card
+        div.card-img
+          img(src="mail.jpg", alt="")
+        div.card-content
+          h2 Mail Contact
+          div.tags
+            div.tagbox.blue Pro
+          div.description
+            p My Email Address.
+          div.align-center
+            a.red_link(href="mailto:loislespes@gmail.com", target="_blank") Contact me
+
+      div.card
+        div.card-img
+          img(src="discord.jpg", alt="")
+        div.card-content
+          h2 Discord
+          div.tags
+            div.tagbox.green Instant Messaging
+          div.description
+            p My Discord contact.
+          div.align-center
+            a.red_link @lvii_sh

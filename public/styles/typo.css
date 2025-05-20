@@ -1,32 +1,32 @@
 @font-face {
     font-family: "Cottorway";
     font-weight: 300;
-    src: url("CottorwayTypeface-Light.otf") format("opentype");
+    src: url("/fonts/CottorwayTypeface-Light.otf") format("opentype");
 }
 @font-face {
     font-family: "Cottorway";
     font-weight: 400;
-    src: url("CottorwayTypeface-Regular.otf") format("opentype");
+    src: url("/fonts/CottorwayTypeface-Regular.otf") format("opentype");
 }
 @font-face {
     font-family: "Cottorway";
     font-weight: 500;
-    src: url("CottorwayTypeface-Medium.otf") format("opentype");
+    src: url("/fonts/CottorwayTypeface-Medium.otf") format("opentype");
 }
 @font-face {
     font-family: "Cottorway";
     font-weight: 600;
-    src: url("CottorwayTypeface-SemiBold.otf") format("opentype");
+    src: url("/fonts/CottorwayTypeface-SemiBold.otf") format("opentype");
 }
 @font-face {
     font-family: "Cottorway";
     font-weight: 700;
-    src: url("CottorwayTypeface-Bold.otf") format("opentype");
+    src: url("/fonts/CottorwayTypeface-Bold.otf") format("opentype");
 }
 @font-face {
     font-family: "Cottorway";
     font-weight: 800;
-    src: url("CottorwayTypeface-ExtraBold.otf") format("opentype");
+    src: url("/fonts/CottorwayTypeface-ExtraBold.otf") format("opentype");
 }
 
 body{

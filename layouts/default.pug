@@ -1,0 +1,27 @@
+html
+  head
+    include ../includes/head.meta.pug
+    include ../includes/head.scripts.pug
+  if !embed
+    body
+      div.grid-bg.ba-grid
+      main.container
+        div.container-inside
+          div.content
+            div.topside
+              div.left
+                span :)
+              div.center
+                h1.title Loïs Lespes
+                span.subtitle ★ Multimedia Creator ★
+              div.right
+                span
+                  i#server-status.green-dot
+            div.stuff
+                block content
+            div.footer
+              include ../includes/component.tabs.pug
+      div#scanlines
+  else
+    div#embed
+      block embedcontent
